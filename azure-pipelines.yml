@@ -28,4 +28,3 @@ steps:
   inputs:
     command: logout
     containerRegistry: dockerhub-nddevops
-
