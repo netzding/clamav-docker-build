@@ -14,7 +14,7 @@ steps:
   displayName: Login to DockerHub
   inputs:
     command: login
-    containerRegistry: dockerRegistryServiceConnection1
+    containerRegistry: dockerhub-nddevops
 
 - task: Docker@2
   displayName: Build and Push
