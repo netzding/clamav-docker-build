@@ -22,3 +22,10 @@ steps:
     command: buildAndPush
     repository: netzding/clamav
     tags: latest
+
+- task: Docker@2
+  displayName: Logout of DockerHub
+  inputs:
+    command: logout
+    containerRegistry: dockerhub-nddevops
+
